@@ -1,0 +1,37 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: black; /* Black background */
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    padding: 10px 20px; 
+}
+
+/* Logo Styles */
+.navbar img {
+    height: 40px; /* Set the logo height */
+    margin-right: 20px;
+}
+
+/* Navigation links */
+.navbar a {
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.sign{
+    margin-left: 720px;
+
+}
+
+.navbar a:hover {
+    background-color: #575757; /* Darker black/gray for hover effect */
+    
+}
